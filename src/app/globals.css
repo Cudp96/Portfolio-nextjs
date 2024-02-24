@@ -31,3 +31,6 @@ body {
     text-wrap: balance;
   }
 }
+.dropShadow {
+  filter: drop-shadow(30px 30px 5px rgb(222, 122, 122));
+}
