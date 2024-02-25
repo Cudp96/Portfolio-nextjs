@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { cn } from "@/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
@@ -9,7 +9,7 @@ export const HoverEffect = ({
 }: {
   items: {
     title: string;
-    icon:any;
+    icon: any;
   }[];
   className?: string;
 }) => {
@@ -24,6 +24,7 @@ export const HoverEffect = ({
     >
       {items.map((item, idx) => (
         <div
+          key={item.title}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -46,10 +47,8 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card className="flex justify-center items-center">
-                <div className="flex justify-center items-center ">
-                  {item.icon}
-                </div>
-              <CardTitle>{item.title}</CardTitle>
+            <div className="flex justify-center items-center ">{item.icon}</div>
+            <CardTitle>{item.title}</CardTitle>
           </Card>
         </div>
       ))}

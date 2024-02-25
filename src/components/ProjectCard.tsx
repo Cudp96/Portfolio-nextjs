@@ -4,9 +4,7 @@ import { PinContainer } from "./ui/3d-pin";
 import Link from "next/link";
 import Image from "next/image";
 
-
 export default function ProjectCard({ project, title, href, image }: any) {
-  console.log(image);
   return (
     <div className="h-[23rem] w-full flex items-center justify-center">
       <PinContainer title={title} href={href}>
