@@ -38,7 +38,7 @@ const HeroSection = () => {
       />
       <div className="flex justify-center items-center flex-col-reverse sm:flex-row md:flex-row ">
         <div className="p-4 relative z-10 w-full text-center">
-          <h1 className="mt-1 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+          <h1 className="mt-1 md:mt-0 text-4xl md:text-7xl lg:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
             Sudeep Shrestha
           </h1>
           <TypewriterEffect words={words} />
@@ -57,7 +57,7 @@ const HeroSection = () => {
         <div>
           <Image
             src={image1}
-            className="w-[180px] mt-16 sm:mt-0 object-contain sm:w-[300px] drop-shadow"
+            className="mt-16 sm:mt-0 object-contain w-[200px] sm:w-[500px] drop-blur"
           />
         </div>
       </div>

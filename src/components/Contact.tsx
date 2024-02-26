@@ -22,7 +22,7 @@ export default function Contact() {
           />
         </div>
         <div className="container mx-auto md:px-6 !bg-transparent">
-          <section className="py-16 text-center">
+          <section className="pt-36 text-center">
             <div className=" md:px-12">
               <div className="container mx-auto xl:px-32">
                 <div className="grid items-center lg:grid-cols-2">

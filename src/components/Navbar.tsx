@@ -43,25 +43,25 @@ const Navbar = ({ className }: { className?: string }) => {
               title="Gurucool"
               href="https://gurucool.io"
               src={Gurucool}
-              description="Prepare for tech interviews like never before."
+              description="Website Made for IT learning Center"
             />
             <ProductItem
               title="Pokemon Character"
-              href="https://tailwindmasterkit.com"
+              href="https://dazzling-ganache-eaf57d.netlify.app/"
               src={Pokemon}
-              description="Production ready Tailwind css components for your next project"
+              description="Website for Pokemon Characters and can see it's characteristics"
             />
             <ProductItem
               title="Restaurant Page"
-              href="https://gomoonbeam.com"
+              href="https://reliable-raindrop-881b63.netlify.app/"
               src={Restaurant}
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              description="Simple Restaurant Website"
             />
             <ProductItem
               title="Ecommerce"
-              href="https://userogue.com"
+              href="https://visionary-granita-1124ba.netlify.app/"
               src={Ecommerce}
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              description="Simple Website for ecommerce"
             />
           </div>
         </MenuItem>
