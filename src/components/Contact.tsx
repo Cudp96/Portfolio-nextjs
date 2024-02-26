@@ -19,7 +19,7 @@ export default function Contact() {
           particleColor="#FFFFFF"
         />
       </div>
-      <div className="sm:mt-52 md:mt-0 max-w-5xl mx-auto p-10 shadow-lg mb-[-31rem] md:mb-1 text-white z-10 bg-gray-600 bg-opacity-20 backdrop-blur-lg rounded-lg ">
+      <div className="sm:mt-52 md:mt-0 max-w-6xl mx-auto p-10 shadow-lg mb-[-31rem] md:mb-1 text-white z-10 bg-gray-600 bg-opacity-20 backdrop-blur-lg rounded-lg ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h2 className="text-2xl font-bold mb-4">Contact Information</h2>

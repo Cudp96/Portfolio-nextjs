@@ -45,7 +45,7 @@ export default function DotBackgroundDemo() {
       <p className=" text-center text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
         Projects
       </p>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-8">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4 gap-6">
         {projects &&
           projects.map((project) => (
             <ProjectCard
