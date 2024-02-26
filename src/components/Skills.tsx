@@ -6,12 +6,16 @@ import {
   SiBootstrap,
   SiTailwindcss,
   SiTypescript,
+  SiReact,
+  SiNextdotjs,
 } from "react-icons/si";
 
 export default function Skills() {
   return (
     <section className="p-5">
-      <h2 className="text-center text-3xl">Skills</h2>
+      <p className=" text-center text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-1">
+        Skills
+      </p>{" "}
       <div className="max-w-5xl mx-auto px-8">
         <HoverEffect items={projects} />
       </div>
@@ -42,5 +46,13 @@ export const projects = [
   {
     title: "TypeScript",
     icon: <SiTypescript />,
+  },
+  {
+    title: "React",
+    icon: <SiReact />,
+  },
+  {
+    title: "Next js",
+    icon: <SiNextdotjs />,
   },
 ];

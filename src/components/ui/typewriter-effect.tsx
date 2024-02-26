@@ -171,8 +171,7 @@ export const TypewriterEffectSmooth = ({
           opacity: 1,
         }}
         transition={{
-          duration: 0.8,
-
+          duration: 0.6,
           repeat: Infinity,
           repeatType: "reverse",
         }}
